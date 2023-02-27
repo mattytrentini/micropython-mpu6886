@@ -1,6 +1,6 @@
 {
     "urls": [
-      ["mpu6886.py", "github:mattytrentini/micropython_mpu6886/mpu6886.py"]
+      ["mpu6886.py", "github:mattytrentini/micropython-mpu6886/mpu6886.py"]
     ],
     "version": "0.1"
 }

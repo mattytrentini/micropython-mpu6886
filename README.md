@@ -32,7 +32,7 @@ from machine import I2C, Pin
 from mpu6886 import MPU6886, SF_G, SF_DEG_S
 
 i2c = I2C(scl=Pin(22), sda=Pin(21))
-sensor2 = MPU6886(i2c, accel_sf=SF_G, gyro_sf=SF_DEG_S)
+sensor = MPU6886(i2c, accel_sf=SF_G, gyro_sf=SF_DEG_S)
 
 print("MPU6886 id: " + hex(sensor.whoami))
 
